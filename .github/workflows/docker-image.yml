@@ -5,6 +5,7 @@ name: builds
 on:
   push:
     branches: [ main ]
+    paths-ignore: [ '**.md' ]
 
 jobs:
   buildx:
